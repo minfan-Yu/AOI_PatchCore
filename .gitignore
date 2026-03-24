@@ -1,0 +1,30 @@
+# Python 暫存檔
+__pycache__/
+*.py[cod]
+
+# 影像資料集
+datasets/
+results/
+images/
+
+# 模型權重檔案
+*.ckpt
+*.bin
+*.onnx
+
+# 大型影片檔案
+*.mp4
+*.avi
+*.mov
+
+# IDE 設定
+.vscode/
+.idea/
+
+# Claude Code 設定
+.claude/
+
+# 虛擬環境
+toothbrush/
+venv/
+.env/
