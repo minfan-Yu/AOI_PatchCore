@@ -12,10 +12,10 @@ images/
 *.bin
 *.onnx
 
-# 大型影片檔案
-*.mp4
-*.avi
-*.mov
+# 大型影片檔案（排除根目錄，保留 demo_result 內的展示影片）
+/*.mp4
+/*.avi
+/*.mov
 
 # IDE 設定
 .vscode/
